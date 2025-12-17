@@ -2,6 +2,29 @@
 
 <br>
 
+# Prerequisites
+
+- Rust (latest stable version)
+wasm-pack, install with: 
+```bash
+cargo install wasm-pack
+```
+
+1. Build the WebAssembly module:
+```bash
+wasm-pack build --target web
+```
+
+2. Load files with a local web server:
+```bash
+python -m http.server 8000
+```
+
+3. Open browser:
+```bash
+http://localhost:8000
+```
+
 # Game Rules
 
 - Placement Phase: Players take turns placing one piece on any vacant square until all 16 pieces (8 per player) are placed on the board.
