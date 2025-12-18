@@ -50,7 +50,7 @@ http://localhost:8000
 
 ### Winning the Game
 
-- Victory: Capture all of your opponent's pieces, OR immobilize them so they cannot make any legal moves.
+- Victory: Capture all of your opponent's pieces, or immobilize them so they cannot make any moves.
 - End: The game ends immediately when a player has no pieces remaining or cannot move.
 
 <br>
