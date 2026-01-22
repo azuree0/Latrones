@@ -1,0 +1,97 @@
+.game-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+}
+
+.player-info {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.player-indicator {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.player-name {
+    padding: 5px 15px;
+    border-radius: 5px;
+    background: #667eea;
+    color: white;
+}
+
+.player-name.dark {
+    background: #764ba2;
+}
+
+.phase-display {
+    font-size: 1.2em;
+}
+
+.phase-display span:first-child {
+    color: #b19cd9;
+}
+
+.phase-name {
+    display: inline-block;
+    padding: 5px 15px;
+    background: #9370db;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn-primary {
+    background: #ffd700;
+    color: #333;
+}
+
+.btn-primary:hover {
+    background: #ffed4e;
+}
+
+.btn-secondary {
+    background: #6c757d;
+    color: white;
+}
+
+.btn-secondary:hover {
+    background: #5a6268;
+}
+
+@media (max-width: 768px) {
+    .game-info {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
