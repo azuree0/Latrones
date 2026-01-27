@@ -152,26 +152,26 @@ Latrones influenced the development of later European strategy games and is cons
 ├── Cargo.toml               # Rust project configuration       (Backend)  (Config)
 ├── Cargo.lock               # Rust dependency lock file        (Backend)  (Config)
 ├── package.json             # Node.js project metadata         (Frontend) (Config)
-├── index.html               # HTML entry point                 (Frontend) (Static / 1 Markup)
+├── index.html               # HTML entry point                 (Frontend) (Static /  Markup)
 ├── src/
-│   ├── lib.rs               # Rust game logic + rendering      (Backend)  (Source / 2 Library)
+│   ├── lib.rs               # Rust game logic + rendering      (Backend)  (Source /  Library)
 │   │                         # - GameState struct & methods
 │   │                         # - Game rules & validation
 │   │                         # - HTML rendering (render_game_info_html, render_game_board_html)
-│   ├── main.js              # JavaScript thin client           (Frontend) (Source / 6 Script)
+│   ├── main.js              # JavaScript thin client           (Frontend) (Source /  Script)
 │   │                         # - WASM initialization
 │   │                         # - DOM updates only
 │   │                         # - Event handler wrappers
-│   ├── App.css              # Application styles               (Frontend) (Static / 4 Styles)
-│   ├── index.css            # Global styles                    (Frontend) (Static / 4 Styles)
+│   ├── App.css              # Application styles               (Frontend) (Static /  Styles)
+│   ├── index.css            # Global styles                    (Frontend) (Static /  Styles)
 │   └── components/          # Component styles
-│       ├── GameBoard.css    # Board styling                    (Frontend) (Static / 4 Styles)
-│       └── GameInfo.css     # Info component styling           (Frontend) (Static / 4 Styles)
+│       ├── GameBoard.css    # Board styling                    (Frontend) (Static /  Styles)
+│       └── GameInfo.css     # Info component styling           (Frontend) (Static /  Styles)
 ├── pkg/                     # wasm-pack generated (gitignored) (Backend)
-│   ├── latrones.js          # WASM bindings                    (Backend)  (Source / 3 Module)
-│   ├── latrones_bg.wasm     # Compiled WebAssembly             (Backend)  (Source / 2 Library)
-│   ├── latrones.d.ts        # TypeScript definitions           (Backend)  (Source / 3 Module)
-│   ├── latrones_bg.wasm.d.ts # WASM TypeScript definitions     (Backend)  (Source / 3 Module)
+│   ├── latrones.js          # WASM bindings                    (Backend)  (Source /  Module)
+│   ├── latrones_bg.wasm     # Compiled WebAssembly             (Backend)  (Source /  Library)
+│   ├── latrones.d.ts        # TypeScript definitions           (Backend)  (Source /  Module)
+│   ├── latrones_bg.wasm.d.ts # WASM TypeScript definitions     (Backend)  (Source /  Module)
 │   └── package.json         # WASM package metadata            (Backend)  (Config)
 └── README.md                # This file
 ```
