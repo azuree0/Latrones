@@ -157,7 +157,7 @@ Latrones influenced the development of later European strategy games and is cons
 │   ├── lib.rs               # Rust game logic + rendering      (Backend)  (Source /  Library)
 │   │                         # - GameState struct & methods
 │   │                         # - Game rules & validation
-│   │                         # - HTML rendering (render_game_info_html, render_game_board_html)
+│   │                         # - HTML rendering 
 │   ├── main.js              # JavaScript thin client           (Frontend) (Source /  Script)
 │   │                         # - WASM initialization
 │   │                         # - DOM updates only
